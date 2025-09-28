@@ -1,160 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
-  <style>
-    /* --- Global Styles --- */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f9fafb;
-      color: #333;
-    }
-    h1, h2, h3 {
-      margin-bottom: 10px;
-    }
-    a {
-      text-decoration: none;
-      color: #2563eb;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* --- Navbar --- */
-    header {
-      background: #fff;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    nav a {
-      margin: 0 10px;
-      font-weight: bold;
-      color: #333;
-    }
-    nav a:hover {
-      color: #2563eb;
-    }
-
-    /* --- Sections --- */
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    #hero {
-      text-align: center;
-      padding: 100px 20px;
-    }
-    #hero h1 {
-      font-size: 2.5rem;
-      color: #2563eb;
-    }
-    #hero p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #2563eb;
-      color: #fff;
-      border-radius: 6px;
-    }
-    .btn:hover {
-      background: #1e40af;
-    }
-
-    /* --- Projects --- */
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .project-card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .project-card h3 {
-      margin-top: 0;
-    }
-
-    /* --- Footer --- */
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #fff;
-      margin-top: 40px;
-      box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi Vashishta - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <header>
-    <h2>Your Name</h2>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <div class="portfolio-container">
+        
+        <header class="header">
+            <div class="header-left">Avi Vashishta</div>
+            <div class="header-right">
+                <a href="#" class="resume-button">Resume <i class="fas fa-download"></i></a>
+            </div>
+        </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <h1>Hello, I'm Your Name</h1>
-    <p>A passionate software developer creating impactful web solutions.</p>
-    <a href="#projects" class="btn">See My Work</a>
-  </section>
+        <main class="main-content">
+            
+            <div class="image-column">
+                <img src="https://i.ibb.co/L840p0Y/avi.jpg" alt="Avi Vashishta" class="profile-image">
+            </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a developer with experience in building responsive web applications using
-      HTML, CSS, JavaScript, and modern frameworks. I love solving problems, contributing
-      to open-source, and bringing ideas to life through code.
-    </p>
-  </section>
+            <div class="info-column">
+                
+                <section class="intro">
+                    <p class="greeting">Hi There,</p>
+                    <p class="name-portfolio">I am Avi Vashishta. And This is my <span class="highlight">Portfolio!</span></p>
+                </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Project One</h3>
-        <p>A simple project description goes here. Built with HTML, CSS, and JavaScript.</p>
-        <a href="https://github.com/yourusername/project-one" target="_blank">View Code →</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Two</h3>
-        <p>A project that showcases API integration and responsive design.</p>
-        <a href="https://github.com/yourusername/project-two" target="_blank">View Code →</a>
-      </div>
+                <section class="skills">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Figma</span>
+                </section>
+
+                <section class="about-me">
+                    <p>I am a 21 year old self taught developer, who has recently acquired the skill of HTML, CSS and Figma. I am here to learn and grow by working for companies.</p>
+                </section>
+
+                <section class="education-section">
+                    <h2 class="section-title">Education</h2>
+                    <ol>
+                        <li>Don Bosco School, Alaknanda - CBSE Board (97%) - 2020</li>
+                        <li>JEE Mains - 98.6%ile - 2020</li>
+                        <li>IIITD - BTECH - 2024</li>
+                    </ol>
+                </section>
+
+                <section class="work-experience-section">
+                    <h2 class="section-title">Work Experience</h2>
+                    <ul>
+                        <li>Wexus.in - Founder (2021 - 2022)</li>
+                        <li>Boldbot.in - CoFounder (2022 - Present)</li>
+                        <li>AccioJob - Instructor (2022 - Present)</li>
+                    </ul>
+                </section>
+
+                <section class="socials-section">
+                    <h2 class="section-title">Socials</h2>
+                    <div class="social-icons">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </section>
+            </div>
+        </main>
     </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
-    <p><a href="mailto:youremail@example.com" class="btn">Email Me</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Your Name. All rights reserved.</p>
-  </footer>
 </body>
 </html>
