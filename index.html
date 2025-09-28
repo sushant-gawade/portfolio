@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <style>
+    /* --- Global Styles --- */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #333;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #2563eb;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Navbar --- */
+    header {
+      background: #fff;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 10px;
+      font-weight: bold;
+      color: #333;
+    }
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    /* --- Sections --- */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    #hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    #hero h1 {
+      font-size: 2.5rem;
+      color: #2563eb;
+    }
+    #hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 6px;
+    }
+    .btn:hover {
+      background: #1e40af;
+    }
+
+    /* --- Projects --- */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      margin-top: 40px;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <h2>Your Name</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Hello, I'm Your Name</h1>
+    <p>A passionate software developer creating impactful web solutions.</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a developer with experience in building responsive web applications using
+      HTML, CSS, JavaScript, and modern frameworks. I love solving problems, contributing
+      to open-source, and bringing ideas to life through code.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A simple project description goes here. Built with HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/yourusername/project-one" target="_blank">View Code →</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>A project that showcases API integration and responsive design.</p>
+        <a href="https://github.com/yourusername/project-two" target="_blank">View Code →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+    <p><a href="mailto:youremail@example.com" class="btn">Email Me</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
